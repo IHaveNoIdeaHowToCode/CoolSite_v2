@@ -1,0 +1,81 @@
+:root {
+  --cool-dark: #061130;
+  --cool-blue: #1C4BC4;
+  --cool-light: #F4F6F8;
+  --cool-yellow: #FAFD61;
+}
+
+body {
+  background-color: var(--cool-dark);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  color: var(--cool-light);
+  justify-content: space-between;
+}
+
+hader {
+  margin-left: 5px;
+  margin-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  color: whitesmoke;
+}
+
+main {
+  flex-wrap: flex;
+  justify-content: center;
+  /* width: 50%; */
+  /* height: 50%; */
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+#Section1 {
+  /* width: 50%; */
+  justify-content: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* padding: 10rem; */
+}
+
+#Section2 {
+  /* width: 50%;
+  justify-content: space-between;
+  align-content: center; */
+  background-color: var(--cool-light);
+  color: var(--cool-dark);
+  padding: 3rem 10rem;
+  /* flex-wrap: wrap; */
+}
+
+#Nav {
+  width: 30%;
+  justify-content: space-between;
+}
+
+
+.blue-button {
+  background-color: var(--cool-blue);
+  color: var(--cool-light);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.flexing {
+  display: flex;
+}
+
+#Services {
+  color: var(--cool-yellow);
+}
